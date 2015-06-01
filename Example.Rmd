@@ -84,6 +84,7 @@ to count people twice, so I'll focus on the posttest data.
 
 ```{r}
 tab<-table(pols$party[pols$testtime=="pre"],pols$minwage[pols$testtime=="pre"])
+tabtab<-table(pols$party[pols$testtime=="pre"],pols$minwage[pols$testtime=="pre"])
 tab
 ```
 
